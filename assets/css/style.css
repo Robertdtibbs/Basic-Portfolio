@@ -1,25 +1,85 @@
 header { 
-    background-color:white;
+    background-color: #ffffff;
+    height:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: none none solid none;
+    border-color: #666666;
+    border-width: thin;
 }
 #name { 
     color: white;
-    background-color: lightgreen;
+    background-color: #4aaaa5;
+    display: inline-block;
+    margin-right: 45%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 21px;
+    padding-bottom: 23px;
 }
 .link{
     color: white;
+    display: inline-block;
+    padding: 2%;
+    /* float: right; */
 }
 .head{
     width: 960px;
+    display: block;
+    margin-left:15%;
 }
 body{
-    background-color: lightblue;
+    background-image: url("C:\Users\Robert\Documents\Bootcamp\Basic-Portfolio\assets\images\escheresque_@2X.png");
+    background-color: lightgrey;
+    margin:0;
 }
 .bod{
     background-color: white;
-    margin-top: 10%;
-    margin-right: 25%;
-    margin-bottom: 40%;
-    margin-left: 25%;
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    width: 940px;
+    border-style:double;
+    padding: 10px;
+    padding-top: 5px;
+    
+}
+#aboutme{
+    display:block;
+    color: #4aaaa5;
+    background-color:#ffffff;
+    border-bottom-style: solid;
+    border-color: #666666;
+    padding-bottom: 5px;
+    border-width: thin;
+}
+#image{
+    float:left;
+    padding-right:3%;
+}
+#first{
+    /* float: right; */
+    display: block;
+    Letter-spacing: 2px;
+    line-height: 1.35;
+    margin: 2%;
+    padding-bottom: 0%;
+}
+#second{
+    display: block;
+    Letter-spacing: 2px;
+    line-height: 1.35;
+}
+footer{
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    margin:0;
+    padding-bottom: 8px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    
 }
 .clearfix::after{
     content:"";
