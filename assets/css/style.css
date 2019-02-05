@@ -1,0 +1,28 @@
+header { 
+    background-color:white;
+}
+#name { 
+    color: white;
+    background-color: lightgreen;
+}
+.link{
+    color: white;
+}
+.head{
+    width: 960px;
+}
+body{
+    background-color: lightblue;
+}
+.bod{
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-bottom: 40%;
+    margin-left: 25%;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
