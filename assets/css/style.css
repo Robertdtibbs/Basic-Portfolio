@@ -17,12 +17,17 @@ header {
     padding-bottom: 23px;
 }
 .link{
-    color:red;
+    color: #ffffff;
     display: inline-block;
     padding: 1%;
-    /* float: right; */
-    /* color: hotpink; */
     text-decoration:none;
+}
+.link:hover{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-decoration: none;
 }
 .head{
     width: 960px;
@@ -30,8 +35,9 @@ header {
     margin-left:15%;
 }
 body{
-    background-image: url("C:\Users\Robert\Documents\Bootcamp\Basic-Portfolio\assets\images\escheresque_@2X.png");
-    background-color: white;
+    background-image: url(https://i.stack.imgur.com/xJRXv.png\images\background.png);
+    background-repeat: repeat;
+    /* background-color: white; */
     margin:0;
 }
 .bod{
@@ -83,6 +89,21 @@ footer{
     border-top-style: solid;
     border-color: #4aaaa5; 
 }
+#portfolio{
+    display:block;
+    color: #4aaaa5;
+    background-color:#ffffff;
+    border-bottom-style: solid;
+    border-color: #666666;
+    padding-bottom: 5px;
+    border-width: thin;
+}
+#image1{
+    /* display: inline-block; */
+    Margin: 10px;
+    padding: 5px;
+    position: relative;
+}
 #contact{
     display:block;
     color: #4aaaa5;
@@ -109,9 +130,24 @@ footer{
     background-color: #4aaaa5;
     color:white;
     border:none;
+    width: 80px;
+    height: 40px;
 }
 .clearfix::after{
     content:"";
     display:block;
     clear:both;
 }
+/* .container {
+    /* position: relative; */
+  }
+  
+  /* Bottom right text */
+  /* .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px */ */
