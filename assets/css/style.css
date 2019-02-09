@@ -28,6 +28,7 @@ header {
     padding-top: 20px;
     padding-bottom: 25px;
     text-decoration: none;
+    height: 10px;
 }
 .head{
     width: 960px;
@@ -43,7 +44,7 @@ body{
 .bod{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#ffffff;
-    margin-top: 1%;
+    margin-top: 2.5%;
     margin-right: 15%;
     margin-bottom: 15%;
     margin-left: 15%;
@@ -62,6 +63,7 @@ body{
     border-color: #666666;
     padding-bottom: 5px;
     border-width: thin;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #image{
     float:left;
@@ -88,6 +90,8 @@ footer{
     padding-bottom: 8px;
     border-top-style: solid;
     border-color: #4aaaa5; 
+    border-width: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #portfolio{
     display:block;
@@ -97,12 +101,7 @@ footer{
     border-color: #666666;
     padding-bottom: 5px;
     border-width: thin;
-}
-#image1{
-    /* display: inline-block; */
-    Margin: 10px;
-    padding: 5px;
-    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #contact{
     display:block;
@@ -112,12 +111,14 @@ footer{
     border-color: #666666;
     padding-bottom: 5px;
     border-width: thin;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .text{
     border-style:solid;
     Border-color: #666666;
     border-width: thin;
     width:99.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .message{
     width: 99.5%;
@@ -125,6 +126,7 @@ footer{
     border-style:solid;
     Border-color: #666666;
     border-width: thin;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #button{
     background-color: #4aaaa5;
@@ -132,22 +134,28 @@ footer{
     border:none;
     width: 80px;
     height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .clearfix::after{
     content:"";
     display:block;
     clear:both;
 }
-/* .container {
-    /* position: relative; */
+.container {
+    position: relative;
+    width: 280px;
+    height: 220px;
+    display: inline-block;
+    margin: 15px;
   }
-  
-  /* Bottom right text */
-  /* .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px */ */
+.text-block {
+    position: absolute; 
+    bottom: 5px;
+    right: 0.1px;
+    left: 0.1px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
